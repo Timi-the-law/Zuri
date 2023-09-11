@@ -1,0 +1,72 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #555;
+}
+
+#currentUTCTime {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#current-time {
+    font-size: 24px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+#image-container {
+   width: 300px;
+   height: auto;
+   margin: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#myTrack {
+    text-align: center;
+}
+
+#githubURL {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#githubURL a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+#githubURL a:hover {
+    text-decoration: underline;
+    color: blue;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stage1</title>
+    <link rel="stylesheet" href="style.css"> <!-- Reference the CSS file -->
+</head>
+<body>
+    <h1 data-testid="personal-info">Personal Information</h1>
+    <ul data-testid="attribute-list">
+        <li>Name: Richard Aturu</li>
+        <li>Age: 20</li>
+        <li>Location: Lagos</li>
+    </ul>
+
+    <p data-testid="myTrack"> My Track: Frontend</p>
+
+    <div id="image-container">
+          <img src="me.jpg" alt="Richard Aturu" data-testid="slackDisplayImage">
+    </div>
+
+    <div id="currentUTCTime" data-testid="currentUTCTime">
+        <h2>Real-Time Data</h2>
+        <p>Current Time: <span id="currentUTCTime"></span></p>
+    </div>
+    <div id="dayofweek">
+    <p id="current-day"></p>
+
+    </div>
+    <div id="githubURL" data-testid="githubURL">
+        <p>GitHub: <a href="https://github.com/Timi-the-law">Github Profile</a></p>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
